@@ -13,6 +13,3 @@ def test_split_empty_string_result_empty_array():
 
     # assert
     assert result == expResult
-
-
-test_split_empty_string_result_empty_array()

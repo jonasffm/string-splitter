@@ -1,8 +1,8 @@
 # "python, java" ["python","java"]
 
-def TagManipulator(input):
+class TagManipulator:
+    def parse_string(self, input):
+        return [x.lstrip().rstrip() for x in input.split(",")]
 
-    return [x.lstrip().rstrip() for x in input.split(",")]
 
-
-print(TagManipulator("asdf,bsdf, a b c "))
+#print(TagManipulator.parse_string("asdf,bsdf, a b c "))

@@ -3,8 +3,8 @@ from tag_manipulator import TagManipulator
 
 def test_split_empty_string_result_empty_array():
     # arrange
-    stringToSplit = ""
-    expResult = []
+    stringToSplit = "a"
+    expResult = ["a"]
     result = None
     cut = TagManipulator()
 
@@ -13,3 +13,6 @@ def test_split_empty_string_result_empty_array():
 
     # assert
     assert result == expResult
+
+
+test_split_empty_string_result_empty_array()
